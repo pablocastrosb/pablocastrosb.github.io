@@ -83,3 +83,37 @@ body.quarto-light {
   background-size: 900px auto;
   background-attachment: fixed;
 }
+
+/* --- Phones and small tablets --- */
+@media (max-width: 768px) {
+  /* Fixed backgrounds are slow on phones: let it scroll and use smaller tiles */
+  body.quarto-light {
+    background-attachment: scroll;
+    background-size: 450px auto;
+  }
+
+  /* Less padding in the homepage panel */
+  .quarto-about-trestles .about-entity {
+    padding: 1.5rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Icons wrap onto a second line instead of overflowing */
+  .social-links {
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1.6rem;
+  }
+
+  /* Wide tables (preprints) scroll sideways instead of breaking the page */
+  .quarto-listing-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  /* No hover animation on touch screens */
+  .quarto-grid-item:hover,
+  .quarto-grid-item:hover img {
+    transform: none;
+  }
+}

@@ -1,0 +1,75 @@
+---
+title: "Publications"
+toc: true
+toc-location: left
+toc-depth: 3
+toc-expand: true
+toc-title: "On this page"
+listing:
+  - id: featured
+    contents:
+      - publications.yml
+      - preprints.yml
+    include:
+      featured: "yes"
+    type: grid
+    grid-columns: 3
+    image-height: 180px
+    sort: "date desc"
+    fields: [image, date, title, description]
+    date-format: "YYYY"
+    sort-ui: false
+    filter-ui: false
+  - id: preprints
+    contents: preprints.yml
+    type: table
+    sort: "date desc"
+    fields: [date, title, author, description]
+    field-display-names:
+      date: "Year"
+      description: "Server"
+    date-format: "YYYY"
+    filter-ui: false
+    sort-ui: false
+---
+
+## Featured publications
+
+::: {#featured}
+:::
+
+## Peer-reviewed publications
+
+```{r}
+#| echo: false
+#| results: asis
+#| warning: false
+
+my_name <- "Castro Sánchez-Bermejo P"   # your name is shown in bold in author lists
+
+pubs  <- yaml::read_yaml("publications.yml")
+dates <- vapply(pubs, function(p) as.character(p$date), character(1))
+years <- substr(dates, 1, 4)
+
+for (y in sort(unique(years), decreasing = TRUE)) {
+  cat("\n### ", y, "\n\n", sep = "")
+  idx <- which(years == y)
+  idx <- idx[order(dates[idx], decreasing = TRUE)]
+  for (i in idx) {
+    p <- pubs[[i]]
+    authors <- gsub(my_name, paste0("**", my_name, "**"), p$author, fixed = TRUE)
+    cat("::: {.pub-entry}\n",
+        "**[", p$title, "](", p$path, ")**  \n",
+        authors, "  \n",
+        "*", p$description, "*\n",
+        ":::\n\n", sep = "")
+  }
+}
+```
+
+## Preprints
+
+::: {#preprints}
+:::
+
+Full list also available on [Google Scholar](https://scholar.google.com/citations?user=ac77O-QAAAAJ&hl=es).

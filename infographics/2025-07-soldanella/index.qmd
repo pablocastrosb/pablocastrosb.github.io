@@ -1,0 +1,9 @@
+---
+title: "The distribution of Soldanella alpina"
+date: 2025-07-12
+image: thumbnail.jpg
+categories: [Data visualization, Illustration]
+description: "Gbif records of Soldanella alpina (L.) in the Alps."
+---
+
+![](image.png)

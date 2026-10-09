@@ -1,0 +1,9 @@
+---
+title: "Teide National Park"
+date: 2025-03-28
+image: thumbnail.jpg
+categories: [Illustration]
+description: "View of the Teide."
+---
+
+![](image.png)

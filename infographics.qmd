@@ -1,0 +1,11 @@
+---
+title: "Infographics"
+listing:
+  contents: infographics
+  type: grid
+  sort: "date desc"
+  categories: true
+  feed: true
+---
+
+Welcome my infographics data visualization section. Here, I use data and illustrations to explore different facets of biodiversity, from visualizing the distribution of a species to explaining ecological processes.

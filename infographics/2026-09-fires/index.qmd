@@ -1,0 +1,9 @@
+---
+title: "Burned forest types"
+date: 2026-10-08
+image: thumbnail.jpg
+categories: [Data visualization]
+description: "Forest types affected by the fires of 2026 in Spain."
+---
+
+![](image.png)

@@ -1,0 +1,9 @@
+---
+title: "The effects of aridity on dung beetles"
+date: 2022-10-17
+image: thumbnail.jpg
+categories: [Data visualization, Illustration]
+description: "A summary of our study on how the diversity of dung beetles changes along aridity gradients (https://doi.org/10.1111/jbi.14506)."
+---
+
+![](image.png)

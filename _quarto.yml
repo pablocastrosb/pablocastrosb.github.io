@@ -1,0 +1,36 @@
+project:
+  type: website
+  resources:
+    - files/
+    - images/
+
+website:
+  favicon: images/favicon.png
+  title: "Pablo Castro Sánchez-Bermejo"
+  navbar:
+    background: "#3A3A3A"
+    foreground: "#F2F2F2"
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: infographics.qmd
+        text: Infographics and data viz
+      - href: outreach.qmd
+        text: Outreach
+    right:
+      - icon: github
+        href: https://github.com/pablocastrosb/pablocastrosb.github.io
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css">

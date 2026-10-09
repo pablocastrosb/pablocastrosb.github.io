@@ -1,0 +1,27 @@
+---
+title: "Pablo Castro Sánchez-Bermejo"
+subtitle: "Researcher in ecology at MBG - CSIC"
+image: images/profile.jpeg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 15em
+---
+
+<div class="social-links">
+  <a href="https://orcid.org/0000-0003-3357-2980" title="ORCID"><i class="ai ai-orcid"></i></a>
+  <a href="https://scholar.google.com/citations?user=ac77O-QAAAAJ&hl=es" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://bsky.app/profile/castretis.bsky.social" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+  <a href="https://github.com/pablocastrosb" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  <a href="mailto:pablo.castro@mbg.csic.es" title="Email"><i class="fa-solid fa-envelope"></i></a>
+</div>
+
+I am a postdoctoral researcher in the Misión Biológica de Galicia (MBG-CSIC). 
+My research focuses on understanding the responses of biodiversity and its effects on ecosystem function, with special focus on the traits of the species. Further, I have great interest on the use of illustrations and data visualization to communicate science
+
+## Research interests
+
+- Biodiversity
+- Ecology
+- Functional traits
+- Vegetation science

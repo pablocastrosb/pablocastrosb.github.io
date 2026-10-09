@@ -1,0 +1,9 @@
+---
+title: "The flora of Madrid"
+date: 2023-05-15
+image: thumbnail.jpg
+categories: [Data visualization, Illustration]
+description: "An insight to the plant biodiversity in the city of Madrid."
+---
+
+![](image.png)

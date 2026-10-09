@@ -1,0 +1,9 @@
+---
+title: "Sierra de Guadarrama"
+date: 2026-01-12
+image: thumbnail.jpg
+categories: [Data visualization, Illustration]
+description: "Map of the main summits in the Sierra de Guadarrama National Park."
+---
+
+![](image.png)

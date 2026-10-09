@@ -1,0 +1,9 @@
+---
+title: "Leaf diversity in forests"
+date: 2026-01-05
+image: thumbnail.jpg
+categories: [Data visualization, Illustration]
+description: "Summary of our study on the variability of leaves in subtropical forests in China (https://doi.org/10.1038/s41467-025-67265-8)."
+---
+
+![](image.png)

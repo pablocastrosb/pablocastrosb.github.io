@@ -1,0 +1,13 @@
+---
+title: "Outreach"
+listing:
+  contents: outreach.yml
+  type: grid
+  grid-columns: 3
+  image-height: 180px
+  sort: "date desc"
+  fields: [image, date, title, description]
+  date-format: "MMMM YYYY"
+---
+
+Articles and blog posts written for a general audience.

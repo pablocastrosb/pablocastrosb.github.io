@@ -1,0 +1,85 @@
+/* --- Social icons on the homepage --- */
+.social-links {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: var(--bs-primary);
+}
+
+/* --- Background panel behind the left column of the homepage --- */
+.quarto-about-trestles .about-entity {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("images/background.jpg") center / cover no-repeat;
+  border-radius: 12px;
+  padding: 2.5rem 1.5rem;
+  color: #ffffff;
+}
+
+.quarto-about-trestles .about-entity h1,
+.quarto-about-trestles .about-entity h2,
+.quarto-about-trestles .about-entity .about-subtitle,
+.quarto-about-trestles .about-entity p {
+  color: #ffffff;
+}
+
+.quarto-about-trestles .about-entity .about-image {
+  border: 4px solid rgba(255, 255, 255, 0.85);
+}
+
+/* --- Top menu: green highlight on hover, click and current page --- */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active,
+.navbar .navbar-brand:hover {
+  color: #C75C1A !important;
+}
+
+/* --- Hover effect on cards (infographics, featured publications, outreach) --- */
+.quarto-grid-item {
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.quarto-grid-item img {
+  transition: transform 0.4s ease;
+}
+
+.quarto-grid-item:hover img {
+  transform: scale(1.03);
+}
+
+/* Turn the effect off for visitors who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .quarto-grid-item,
+  .quarto-grid-item img {
+    transition: none;
+  }
+  .quarto-grid-item:hover,
+  .quarto-grid-item:hover img {
+    transform: none;
+  }
+}
+
+/* --- Page background: light colour + motifs image (light mode only) --- */
+body.quarto-light {
+  background-color: #ffffff;
+  background-image: url("images/page-background.png");
+  background-repeat: repeat;
+  background-size: 900px auto;
+  background-attachment: fixed;
+}
